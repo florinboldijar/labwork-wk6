@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>JS demo</title>
+	<!-- my CSS  -->
+	<link href="style.css" rel="stylesheet" >
+	
+	<!-- javascript -->
+	<script type="text/javascript">
+		//javascript goes here inside script tags
+		//document.write("Hi"); //write direct to webpage
+		document.write("<h1>Hello World!</h1>"); //using HTML tags
+		
+		//this is a var declare and value assigned
+		var name = "Jo";
+		document.write("Hi " + name+ "\n how are you? "); //making use of the variable
+		//writing name, alert, prompt and confirm box
+		var name;
+		name = prompt("Florin", "Name here");
+		alert("your computer has virus");
+		confirm("please send money");
+		prompt("put card details below", "1234 5678 9123 4567");
+		//asking user to input a number for addition
+		var num = prompt("2","");
+		var numInt = parseInt(num);
+		
+		var answer = numInt + numInt;
+		document.write("result = " + answer);
+		
+		
+			
+			
+
+	</script>
+  </head>
+  <body>
+	<p>my paragraph</p>
+	<a href="page2.html">Page 2</a>
+	
+	<input type ="button" value="This is a button" onclick="doSomething();" />
+	
+  </body>
+</html>
